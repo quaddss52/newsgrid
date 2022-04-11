@@ -243,7 +243,22 @@ h1, h2, h3, h4, h5, h6{
 #article .meta .categories{
     margin-top: 0.4rem;
 }
+/* Contact */
+#contact .form-wrap .form-group{
+        margin-top: 15px;
+}
 
+#contact .form-wrap .form-group input,
+#contact .form-wrap .form-group textarea
+{
+    width: 100%;
+    padding:10px;
+    border: #ddd 1px solid;
+    border-radius: 5px;
+}
+#contact .form-wrap .form-group textarea{
+    height: 200px;
+}
 /* footer */
 #main-footer{
     background: var(--dark-color);
