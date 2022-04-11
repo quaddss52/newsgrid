@@ -35,18 +35,22 @@
                 <h2 class="l-heading">Contact Us!</h2>
             </div>   
             <div>    
-                <form class="form-wrap" >
+                <form class="form-wrap" method="POST" data-netlify="true" >
                     <div class="form-group">
                         <label for="first-name">First Name</label>
-                        <input type="text" placeholder="Enter First Name">
+                        <input 
+                        name="First-name"
+                        type="text" placeholder="Enter First Name">
                     </div>
                     <div class="form-group">
                         <label for="Last-name">Last Name</label>
-                        <input type="text" placeholder="Enter Last Name">
+                        <input
+                        name="Last-name" type="text" placeholder="Enter Last Name">
                     </div>
                     <div class="form-group">
                         <label for="Email">Email</label>
-                        <input type="email" placeholder="Enter Email">
+                        <input name="email"
+                        type="email" placeholder="Enter Email">
                     </div>
                     <div class="form-group">
                         <label for="Message">Message</label>
